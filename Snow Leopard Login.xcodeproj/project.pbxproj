@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D33CA76C267E70640000432E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33CA76B267E70640000432E /* AppDelegate.swift */; };
+		D33CA76E267E70640000432E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33CA76D267E70640000432E /* SceneDelegate.swift */; };
+		D33CA770267E70640000432E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33CA76F267E70640000432E /* ContentView.swift */; };
+		D33CA773267E70640000432E /* Snow_Leopard_Login.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D33CA771267E70640000432E /* Snow_Leopard_Login.xcdatamodeld */; };
+		D33CA775267E706F0000432E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33CA774267E706F0000432E /* Assets.xcassets */; };
+		D33CA778267E706F0000432E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33CA777267E706F0000432E /* Preview Assets.xcassets */; };
+		D33CA77B267E706F0000432E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33CA779267E706F0000432E /* LaunchScreen.storyboard */; };
+		D33CA786267E70700000432E /* Snow_Leopard_LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33CA785267E70700000432E /* Snow_Leopard_LoginTests.swift */; };
+		D33CA791267E70700000432E /* Snow_Leopard_LoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33CA790267E70700000432E /* Snow_Leopard_LoginUITests.swift */; };
+		D33CA7A0267E72F10000432E /* PureSwiftUITools in Frameworks */ = {isa = PBXBuildFile; productRef = D33CA79F267E72F10000432E /* PureSwiftUITools */; };
+		D33CA7A4267E79A60000432E /* LucidaGrandeBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D33CA7A2267E79A60000432E /* LucidaGrandeBold.ttf */; };
+		D33CA7A5267E79A60000432E /* LucidaGrande.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D33CA7A3267E79A60000432E /* LucidaGrande.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D33CA782267E706F0000432E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33CA760267E70630000432E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33CA767267E70630000432E;
+			remoteInfo = "Snow Leopard Login";
+		};
+		D33CA78D267E70700000432E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33CA760267E70630000432E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33CA767267E70630000432E;
+			remoteInfo = "Snow Leopard Login";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D33CA768267E70640000432E /* Snow Leopard Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snow Leopard Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33CA76B267E70640000432E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D33CA76D267E70640000432E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D33CA76F267E70640000432E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D33CA772267E70640000432E /* Snow_Leopard_Login.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Snow_Leopard_Login.xcdatamodel; sourceTree = "<group>"; };
+		D33CA774267E706F0000432E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D33CA777267E706F0000432E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D33CA77A267E706F0000432E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D33CA77C267E706F0000432E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33CA781267E706F0000432E /* Snow Leopard LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snow Leopard LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33CA785267E70700000432E /* Snow_Leopard_LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snow_Leopard_LoginTests.swift; sourceTree = "<group>"; };
+		D33CA787267E70700000432E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33CA78C267E70700000432E /* Snow Leopard LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snow Leopard LoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33CA790267E70700000432E /* Snow_Leopard_LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snow_Leopard_LoginUITests.swift; sourceTree = "<group>"; };
+		D33CA792267E70700000432E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33CA7A2267E79A60000432E /* LucidaGrandeBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrandeBold.ttf; sourceTree = "<group>"; };
+		D33CA7A3267E79A60000432E /* LucidaGrande.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrande.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D33CA765267E70630000432E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33CA7A0267E72F10000432E /* PureSwiftUITools in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33CA77E267E706F0000432E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33CA789267E70700000432E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D33CA75F267E70630000432E = {
+			isa = PBXGroup;
+			children = (
+				D33CA76A267E70640000432E /* Snow Leopard Login */,
+				D33CA784267E70700000432E /* Snow Leopard LoginTests */,
+				D33CA78F267E70700000432E /* Snow Leopard LoginUITests */,
+				D33CA769267E70640000432E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D33CA769267E70640000432E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D33CA768267E70640000432E /* Snow Leopard Login.app */,
+				D33CA781267E706F0000432E /* Snow Leopard LoginTests.xctest */,
+				D33CA78C267E70700000432E /* Snow Leopard LoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D33CA76A267E70640000432E /* Snow Leopard Login */ = {
+			isa = PBXGroup;
+			children = (
+				D33CA76B267E70640000432E /* AppDelegate.swift */,
+				D33CA76D267E70640000432E /* SceneDelegate.swift */,
+				D33CA76F267E70640000432E /* ContentView.swift */,
+				D33CA774267E706F0000432E /* Assets.xcassets */,
+				D33CA779267E706F0000432E /* LaunchScreen.storyboard */,
+				D33CA77C267E706F0000432E /* Info.plist */,
+				D33CA771267E70640000432E /* Snow_Leopard_Login.xcdatamodeld */,
+				D33CA7A1267E79970000432E /* Fonts */,
+				D33CA776267E706F0000432E /* Preview Content */,
+			);
+			path = "Snow Leopard Login";
+			sourceTree = "<group>";
+		};
+		D33CA776267E706F0000432E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D33CA777267E706F0000432E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D33CA784267E70700000432E /* Snow Leopard LoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				D33CA785267E70700000432E /* Snow_Leopard_LoginTests.swift */,
+				D33CA787267E70700000432E /* Info.plist */,
+			);
+			path = "Snow Leopard LoginTests";
+			sourceTree = "<group>";
+		};
+		D33CA78F267E70700000432E /* Snow Leopard LoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D33CA790267E70700000432E /* Snow_Leopard_LoginUITests.swift */,
+				D33CA792267E70700000432E /* Info.plist */,
+			);
+			path = "Snow Leopard LoginUITests";
+			sourceTree = "<group>";
+		};
+		D33CA7A1267E79970000432E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D33CA7A3267E79A60000432E /* LucidaGrande.ttf */,
+				D33CA7A2267E79A60000432E /* LucidaGrandeBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D33CA767267E70630000432E /* Snow Leopard Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33CA795267E70700000432E /* Build configuration list for PBXNativeTarget "Snow Leopard Login" */;
+			buildPhases = (
+				D33CA764267E70630000432E /* Sources */,
+				D33CA765267E70630000432E /* Frameworks */,
+				D33CA766267E70630000432E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snow Leopard Login";
+			packageProductDependencies = (
+				D33CA79F267E72F10000432E /* PureSwiftUITools */,
+			);
+			productName = "Snow Leopard Login";
+			productReference = D33CA768267E70640000432E /* Snow Leopard Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D33CA780267E706F0000432E /* Snow Leopard LoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33CA798267E70700000432E /* Build configuration list for PBXNativeTarget "Snow Leopard LoginTests" */;
+			buildPhases = (
+				D33CA77D267E706F0000432E /* Sources */,
+				D33CA77E267E706F0000432E /* Frameworks */,
+				D33CA77F267E706F0000432E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33CA783267E706F0000432E /* PBXTargetDependency */,
+			);
+			name = "Snow Leopard LoginTests";
+			productName = "Snow Leopard LoginTests";
+			productReference = D33CA781267E706F0000432E /* Snow Leopard LoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D33CA78B267E70700000432E /* Snow Leopard LoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33CA79B267E70700000432E /* Build configuration list for PBXNativeTarget "Snow Leopard LoginUITests" */;
+			buildPhases = (
+				D33CA788267E70700000432E /* Sources */,
+				D33CA789267E70700000432E /* Frameworks */,
+				D33CA78A267E70700000432E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33CA78E267E70700000432E /* PBXTargetDependency */,
+			);
+			name = "Snow Leopard LoginUITests";
+			productName = "Snow Leopard LoginUITests";
+			productReference = D33CA78C267E70700000432E /* Snow Leopard LoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D33CA760267E70630000432E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D33CA767267E70630000432E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D33CA780267E706F0000432E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D33CA767267E70630000432E;
+					};
+					D33CA78B267E70700000432E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D33CA767267E70630000432E;
+					};
+				};
+			};
+			buildConfigurationList = D33CA763267E70630000432E /* Build configuration list for PBXProject "Snow Leopard Login" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D33CA75F267E70630000432E;
+			packageReferences = (
+				D33CA79E267E72F00000432E /* XCRemoteSwiftPackageReference "pure-swift-ui-tools" */,
+			);
+			productRefGroup = D33CA769267E70640000432E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D33CA767267E70630000432E /* Snow Leopard Login */,
+				D33CA780267E706F0000432E /* Snow Leopard LoginTests */,
+				D33CA78B267E70700000432E /* Snow Leopard LoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D33CA766267E70630000432E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33CA7A4267E79A60000432E /* LucidaGrandeBold.ttf in Resources */,
+				D33CA77B267E706F0000432E /* LaunchScreen.storyboard in Resources */,
+				D33CA7A5267E79A60000432E /* LucidaGrande.ttf in Resources */,
+				D33CA778267E706F0000432E /* Preview Assets.xcassets in Resources */,
+				D33CA775267E706F0000432E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33CA77F267E706F0000432E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33CA78A267E70700000432E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D33CA764267E70630000432E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33CA773267E70640000432E /* Snow_Leopard_Login.xcdatamodeld in Sources */,
+				D33CA76C267E70640000432E /* AppDelegate.swift in Sources */,
+				D33CA76E267E70640000432E /* SceneDelegate.swift in Sources */,
+				D33CA770267E70640000432E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33CA77D267E706F0000432E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33CA786267E70700000432E /* Snow_Leopard_LoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33CA788267E70700000432E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33CA791267E70700000432E /* Snow_Leopard_LoginUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D33CA783267E706F0000432E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33CA767267E70630000432E /* Snow Leopard Login */;
+			targetProxy = D33CA782267E706F0000432E /* PBXContainerItemProxy */;
+		};
+		D33CA78E267E70700000432E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33CA767267E70630000432E /* Snow Leopard Login */;
+			targetProxy = D33CA78D267E70700000432E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D33CA779267E706F0000432E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D33CA77A267E706F0000432E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D33CA793267E70700000432E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D33CA794267E70700000432E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D33CA796267E70700000432E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Snow Leopard Login/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Snow Leopard Login/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zink.Snow-Leopard-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D33CA797267E70700000432E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Snow Leopard Login/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Snow Leopard Login/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zink.Snow-Leopard-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D33CA799267E70700000432E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Snow Leopard LoginTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zink.Snow-Leopard-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snow Leopard Login.app/Snow Leopard Login";
+			};
+			name = Debug;
+		};
+		D33CA79A267E70700000432E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Snow Leopard LoginTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zink.Snow-Leopard-LoginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snow Leopard Login.app/Snow Leopard Login";
+			};
+			name = Release;
+		};
+		D33CA79C267E70700000432E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Snow Leopard LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zink.Snow-Leopard-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snow Leopard Login";
+			};
+			name = Debug;
+		};
+		D33CA79D267E70700000432E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Snow Leopard LoginUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zink.Snow-Leopard-LoginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snow Leopard Login";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D33CA763267E70630000432E /* Build configuration list for PBXProject "Snow Leopard Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33CA793267E70700000432E /* Debug */,
+				D33CA794267E70700000432E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33CA795267E70700000432E /* Build configuration list for PBXNativeTarget "Snow Leopard Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33CA796267E70700000432E /* Debug */,
+				D33CA797267E70700000432E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33CA798267E70700000432E /* Build configuration list for PBXNativeTarget "Snow Leopard LoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33CA799267E70700000432E /* Debug */,
+				D33CA79A267E70700000432E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33CA79B267E70700000432E /* Build configuration list for PBXNativeTarget "Snow Leopard LoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33CA79C267E70700000432E /* Debug */,
+				D33CA79D267E70700000432E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D33CA79E267E72F00000432E /* XCRemoteSwiftPackageReference "pure-swift-ui-tools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeSlicing/pure-swift-ui-tools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D33CA79F267E72F10000432E /* PureSwiftUITools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D33CA79E267E72F00000432E /* XCRemoteSwiftPackageReference "pure-swift-ui-tools" */;
+			productName = PureSwiftUITools;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D33CA771267E70640000432E /* Snow_Leopard_Login.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D33CA772267E70640000432E /* Snow_Leopard_Login.xcdatamodel */,
+			);
+			currentVersion = D33CA772267E70640000432E /* Snow_Leopard_Login.xcdatamodel */;
+			path = Snow_Leopard_Login.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D33CA760267E70630000432E /* Project object */;
+}
